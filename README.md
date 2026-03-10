@@ -107,7 +107,7 @@ __Packages__: `spark/3.3.0`, `bowtie/1.3.0`, `samtools/1.17`, `viennarna/2.5.1`,
 
 __Distributed with siWalk__: `miRanda`, `miRCheck`
 
-__Environments__: Module B (localization mode, Quick Start above) runs on any local machine or login node.
+__Environments__: The localization mode (Quick Start above) runs on any local machine or login node.
 Modules A and X (precursor prediction and model training) require a Spark-enabled server (developed on Compute Canada Narval).
 
 
