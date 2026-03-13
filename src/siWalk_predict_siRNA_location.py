@@ -39,7 +39,7 @@ tag = 'consistent'
 
 k = 100
 file_used_as_training = '../dbs/background.tsv'
-datafile = '../model/Arabidopsis_strcture_feature_importance_n_correlation.tsv'
+datafile = '../model/Arabidopsis_structure_feature_importance_n_correlation.tsv'
 
 cols_to_drop = ['CONTIG', 'eff_seq', 'retained', tag, 'segment']
 cols2drop_for_locapredi = [

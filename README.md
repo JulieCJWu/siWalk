@@ -56,10 +56,12 @@ pip install --no-index statsmodels sklearn
 
 The script `siWalk_predict_siRNA_location.py` takes two arguments: a precursor sequence and DicerCall (the expected siRNA length, typically 21).
 
-**Example** — TAS3 locus (Arabidopsis), segment `3:5862187-5862334`.
-The known effector siRNA is `TTCTTGACCTTGTAAGACCCC` (21 nt, RNA shown in DNA form), located between positions 19 and 39:
+**Example**
 ```
 cd /path/siWalk/src/
+```
+
+```
 priseq=CTTGACCTTGTAAGGCCTTTTCTTGACCTTGTAAGACCCCATCTCTTTCTAAACGTTTTATTATTTTCTCGTTTTACAGATTCTATTCTATCTCTTCTCAATATAGAATAGATATCTATCT
 DicerCall=21
 python siWalk_predict_siRNA_location.py $priseq $DicerCall
@@ -71,7 +73,7 @@ python siWalk_predict_siRNA_location.py $priseq $DicerCall
 
 The predicted position is printed to stdout:
 ```
-yourPrecursor, predicted siRNA start: 38, end: 59, score: 749.860201
+yourPrecursor, predicted siRNA start: 75, end: 93, score: -154.733188
 ```
 The stdout shows the top-ranked candidate. The full list of 6 candidates can be found in `yourPrecursor.effector_localization_top6_recommendation.tsv`.
 

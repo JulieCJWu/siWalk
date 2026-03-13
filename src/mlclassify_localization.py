@@ -23,7 +23,7 @@ seed = 0
 set_seed(seed=seed)
 
 file_used_as_background = '../dbs/background.tsv'
-datafile     = '../model/Arabidopsis_strcture_feature_importance_n_correlation.tsv'
+datafile     = '../model/Arabidopsis_structure_feature_importance_n_correlation.tsv'
 pickle_file  = '../model/RFAs100.pkl'
 
 k = 100
