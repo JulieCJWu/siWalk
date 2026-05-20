@@ -1,7 +1,0 @@
-# myenv.def
-Bootstrap: localimage
-From: python3.11.sif
-
-%post
-    pip install --upgrade pip
-    pip install statsmodels scikit-learn
